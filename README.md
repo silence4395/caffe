@@ -64,6 +64,11 @@ Please cite SSD in your publications if it helps your research:
   make runtest -j8
   ```
 
+3. Import python path
+   ```
+   export PYTHONPATH=/home/zhluo/work/SSD/caffe/python:$PYTHONPATH
+   ```
+
 ### Preparation
 1. Download [fully convolutional reduced (atrous) VGGNet](https://gist.github.com/weiliu89/2ed6e13bfd5b57cf81d6). By default, we assume the model is stored in `$CAFFE_ROOT/models/VGGNet/`
 
